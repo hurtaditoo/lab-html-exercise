@@ -3,9 +3,6 @@
 html, body {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: "Poppins";
 }
 
@@ -36,4 +33,59 @@ nav a {
 .blackHeart {
     width: 20px;
     margin-right: 1rem;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 60px; 
+}
+
+.search-bar-container {
+    display: flex;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 20px;
+}
+
+.search-bar-container .search-icon {
+    width: 20px; 
+    color: rgba(0, 0, 0, .05); 
+}
+
+
+.search-bar-container .search-button {
+    background-color: #fb3e44; 
+    border: none; 
+    color: white; 
+    padding: 8px 16px; 
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-container a {
+    text-decoration: none; 
+    color: black; 
+    padding: 5px 10px; 
+    margin-left: 1px;
+    width: 50px;
+    text-align: center;
+}
+
+.join-button {
+    border: 1.2px solid rgb(95, 93, 93);
 }
