@@ -8,14 +8,14 @@
     
     <body>
         <!-- Section 1 -->
-        <header>
+        <header class="header">
             <div>
-                <div>
+                <div class="logo-title">
                     <img class="blackHeart" src="./images/black-heart.png" alt="Black-heart image" />
                     <span> Nifty Penguin Magic </span>
                 </div>
-                <nav>
-                    <ul>
+                <nav class="nav-bar">
+                    <ul class="nav-bar-ul">
                         <li> <a href="#"> npm Enterprise </a> </li>
                         <li> <a href="#"> Products </a> </li>
                         <li> <a href="#"> Solutions </a> </li>
@@ -26,22 +26,22 @@
                 </nav>
             </div>
         
-            <div>
+            <div class="header-bottom">
             <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
                 <!-- npm logo -->
-                <img src="./images/npm-logo.png" alt="npm Logo"><br>
-
-                <!-- Search Icon as Image -->
-                <img src="./images/magnifying-glass.png" alt="Search icon">
+                <div class="logo-container">
+                    <img src="./images/npm-logo.png" alt="npm Logo"><br>
+                </div> 
 
                 <!-- Search Bar -->
-                <div class="search-bar">
-                    <input type="text" name="search-text" id="search-text" placeholder="Search packages">
-                    <button type="submit"> Search </button>
-                </div>
+                <form class="search-bar-container">
+                    <img class="search-icon" src="./images/magnifying-glass.png" alt="Search icon">
+                    <input class="search-input" type="text" name="search-text" id="search-text" placeholder="Search packages">
+                    <button class="search-button"  type="submit"> Search </button>
+                </form>
                 
                 <!-- Join / Login Links -->
-                <div>
+                <div class="links-container">
                     <a href="#">Join</a>
                     <a href="#">Log In</a>
                 </div> 
@@ -49,24 +49,24 @@
         </header>
 
         <!-- Section 2 -->
-        <section>
+        <section class="main-container">
             <h1>Build amazing things</h1>
-            <article>
+            <article class="text">
                 <p>Essential JavaScript development tools that help 
                     you go to market faster and build powerful 
                     applications using modern open source code.</p>
             </article>
 
-            <div>
+            <div class="buttons">
                 <a href="#">See plans</a>
                 <a href="#">Join for free</a>
             </div>
         </section>
 
         <!-- Section 3 -->
-        <section>
+        <section class="second-container">
             <img src="./images/triangle-hexagon.svg" alt="Triple-hexagon Logo">
-            <h2>Bring the best of open source to your company</h2>
+            <h2 class="second-title">Bring the best of open source to your company</h2>
             <article>
                 <p>npm is the tool used by over 11,000,000 JavaScript developers around the world. Your developers 
                     already use it. Your company depends on it. Create an Org and get more out of the tools your 
@@ -75,8 +75,8 @@
         </section>
 
         <!-- Section 4 -->
-        <section>
-            <div>
+        <section class="features-section">
+            <div class="feature-container">
                 <img src="./images/zero-configuration.svg" alt="Zero configuration Logo">
                 <h4>Zero configuration</h4>
                 <p>Create an org, add your team, 
@@ -85,7 +85,7 @@
                     manage. </p>
             </div>                
 
-            <div>
+            <div class="feature-container">
                 <img src="./images/team-management.svg" alt="Team management Logo">
                 <h4>Team management</h4>
                 <p>Control who has access to
@@ -95,7 +95,7 @@
                     management capabilities.</p>
             </div>  
 
-            <div>
+            <div class="feature-container">
                 <img src="./images/familiar-features.svg" alt="Familiar features Logo">
                 <h4>Familiar features</h4>
                 <p>npm Orgs has 100% parity with 
@@ -104,7 +104,7 @@
                     already use.</p>
             </div>  
 
-            <div>
+            <div class="feature-container">
                 <img src="./images/npm-audit.svg" alt="npm audit Logo">
                 <h4>npm audit</h4>
                 <p>Enjoy the security auditing 
@@ -114,7 +114,7 @@
                     safer.</p>
             </div>  
 
-            <div>
+            <div class="create-button">
                 <a href="#">Create an Org</a>
             </div>
 
